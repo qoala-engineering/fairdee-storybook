@@ -12,10 +12,6 @@ interface Props {
   id?: string;
 }
 
-/**
- * `Import: src/components/common/Card.tsx`
- */
-
 const Card: React.FC<Props> = ({
   title,
   accordion,
